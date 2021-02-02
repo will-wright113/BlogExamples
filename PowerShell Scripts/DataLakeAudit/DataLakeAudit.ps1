@@ -4,7 +4,8 @@ Param
 (
     [parameter(Mandatory=$true)] [String] $ResourceGroupName,
     [parameter(Mandatory=$true)] [String] $AccountName,
-    [parameter(Mandatory=$true)] [String] $FileSystemName
+    [parameter(Mandatory=$true)] [String] $FileSystemName,
+    [parameter(Mandatory=$false)] [String] $ValidationFile
 )
 
 $MaxReturn = 10000

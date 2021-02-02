@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Databricks Workspace",
+    "\\PowerShell Scripts"
   ],
+  "SelectedNode": "\\PowerShell Scripts\\DataLakeAudit.ps1",
   "PreviewInSolutionExplorer": false
 }

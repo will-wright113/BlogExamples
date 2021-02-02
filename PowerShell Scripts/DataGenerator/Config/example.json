@@ -1,0 +1,86 @@
+{
+    "custom_data_types": [
+        {
+            "name":"year_yyyy",
+            "value": ["2021"]
+        },
+        {
+            "name":"month_mm",
+            "value": ["01","02","03","04","05","06","07","08","09","10","11","12"]
+        },
+        {
+            "name":"day_dd",
+            "value": ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31"]
+        },
+        {
+            "name":"country",
+            "value": ["England","Wales","Scotland","Northern Ireland"]
+        }
+    ],
+    "keys":[
+        {
+            "key_name": "product_id",
+            "key_value": "40#####",
+            "seed": 1234,
+            "row_count": 300
+        },
+        {
+            "key_name": "vendor_id",
+            "key_value": "00000#####",
+            "seed": 1234,
+            "row_count": 50
+        }
+    ],
+    "datasets": [
+        {
+            "filename": "VendorDim.csv",
+            "append": "False",
+            "seed": 1234,
+            "row_count": 50,
+            "schema": [
+                {
+                    "column_name": "location_id",
+                    "column_value": "###"
+                },
+                {
+                    "column_name": "vendor_id",
+                    "column_value": "[vendor_id]"
+                },
+                {
+                    "column_name": "country_id",
+                    "column_value": "[country]"
+                },
+                {
+                    "column_name": "vendor_name",
+                    "column_value": "[syllable][syllable][syllable][syllable]"
+                }
+            ],
+            "order": [
+                "vendor_id","location_id","country_id","vendor_name"
+            ]
+        },
+        {
+            "filename": "ProductDim.csv",
+            "append": "False",
+            "seed": 1234,
+            "row_count": 300,
+            "schema": [
+                {
+                    "column_name": "product_id",
+                    "column_value": "[product_id]"
+                },
+                {
+                    "column_name": "product_name",
+                    "column_value": "[syllable][syllable]"
+                },
+                {
+                    "column_name": "model_id",
+                    "column_value": "AZ1###"
+                }
+            ],
+            "order": [
+                "product_id","product_name","model_id"
+            ]
+        }
+    ]
+}

@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Databricks Workspace",
-    "\\PowerShell Scripts"
+    "\\PowerShell Scripts",
+    "\\PowerShell Scripts\\DataGenerator"
   ],
-  "SelectedNode": "\\PowerShell Scripts\\DataLakeAudit.ps1",
+  "SelectedNode": "\\PowerShell Scripts\\DataGenerator",
   "PreviewInSolutionExplorer": false
 }

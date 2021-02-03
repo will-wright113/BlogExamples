@@ -7,9 +7,8 @@ from datetime import datetime, date
 
 # DBTITLE 1,Set Spark Configs
 spark.conf.set("spark.databricks.delta.optimizeWrite.enabled","true")
-spark.conf.set("spark.databricks.delta.retentionDurationCheck.enabled","false")
-spark.conf.set("spark.databricks.optimizer.dynamicPartitionPruning","true")
 spark.conf.set("spark.databricks.delta.properties.defaults.autoOptimize.autoCompact", "false")
+spark.conf.set("spark.databricks.optimizer.dynamicPartitionPruning","true")
 
 # COMMAND ----------
 

@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Databricks Workspace",
-    "\\PowerShell Scripts",
-    "\\PowerShell Scripts\\DataGenerator"
+    "\\Databricks Workspace\\Helpers",
+    "\\Databricks Workspace\\ImportToSynapse"
   ],
-  "SelectedNode": "\\PowerShell Scripts\\DataGenerator",
   "PreviewInSolutionExplorer": false
 }
